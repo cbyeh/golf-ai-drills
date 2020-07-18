@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A9954A24C2925000351B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A9954924C2925000351B6E /* AppDelegate.swift */; };
+		02A9954C24C2925000351B6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A9954B24C2925000351B6E /* SceneDelegate.swift */; };
+		02A9954E24C2925000351B6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A9954D24C2925000351B6E /* ContentView.swift */; };
+		02A9955024C2925500351B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A9954F24C2925500351B6E /* Assets.xcassets */; };
+		02A9955324C2925500351B6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A9955224C2925500351B6E /* Preview Assets.xcassets */; };
+		02A9955624C2925500351B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A9955424C2925500351B6E /* LaunchScreen.storyboard */; };
+		02A9956124C2925700351B6E /* golf_ai_drillsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A9956024C2925700351B6E /* golf_ai_drillsTests.swift */; };
+		02A9956C24C2925700351B6E /* golf_ai_drillsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A9956B24C2925700351B6E /* golf_ai_drillsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02A9955D24C2925700351B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02A9953E24C2925000351B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A9954524C2925000351B6E;
+			remoteInfo = "golf-ai-drills";
+		};
+		02A9956824C2925700351B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02A9953E24C2925000351B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A9954524C2925000351B6E;
+			remoteInfo = "golf-ai-drills";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A9954624C2925000351B6E /* golf-ai-drills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "golf-ai-drills.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A9954924C2925000351B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02A9954B24C2925000351B6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02A9954D24C2925000351B6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02A9954F24C2925500351B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02A9955224C2925500351B6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02A9955524C2925500351B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02A9955724C2925500351B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A9955C24C2925700351B6E /* golf-ai-drillsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "golf-ai-drillsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A9956024C2925700351B6E /* golf_ai_drillsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golf_ai_drillsTests.swift; sourceTree = "<group>"; };
+		02A9956224C2925700351B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A9956724C2925700351B6E /* golf-ai-drillsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "golf-ai-drillsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A9956B24C2925700351B6E /* golf_ai_drillsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golf_ai_drillsUITests.swift; sourceTree = "<group>"; };
+		02A9956D24C2925700351B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02A9954324C2925000351B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A9955924C2925700351B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A9956424C2925700351B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A9953D24C2925000351B6E = {
+			isa = PBXGroup;
+			children = (
+				02A9954824C2925000351B6E /* golf-ai-drills */,
+				02A9955F24C2925700351B6E /* golf-ai-drillsTests */,
+				02A9956A24C2925700351B6E /* golf-ai-drillsUITests */,
+				02A9954724C2925000351B6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02A9954724C2925000351B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02A9954624C2925000351B6E /* golf-ai-drills.app */,
+				02A9955C24C2925700351B6E /* golf-ai-drillsTests.xctest */,
+				02A9956724C2925700351B6E /* golf-ai-drillsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02A9954824C2925000351B6E /* golf-ai-drills */ = {
+			isa = PBXGroup;
+			children = (
+				02A9954924C2925000351B6E /* AppDelegate.swift */,
+				02A9954B24C2925000351B6E /* SceneDelegate.swift */,
+				02A9954D24C2925000351B6E /* ContentView.swift */,
+				02A9954F24C2925500351B6E /* Assets.xcassets */,
+				02A9955424C2925500351B6E /* LaunchScreen.storyboard */,
+				02A9955724C2925500351B6E /* Info.plist */,
+				02A9955124C2925500351B6E /* Preview Content */,
+			);
+			path = "golf-ai-drills";
+			sourceTree = "<group>";
+		};
+		02A9955124C2925500351B6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02A9955224C2925500351B6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02A9955F24C2925700351B6E /* golf-ai-drillsTests */ = {
+			isa = PBXGroup;
+			children = (
+				02A9956024C2925700351B6E /* golf_ai_drillsTests.swift */,
+				02A9956224C2925700351B6E /* Info.plist */,
+			);
+			path = "golf-ai-drillsTests";
+			sourceTree = "<group>";
+		};
+		02A9956A24C2925700351B6E /* golf-ai-drillsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02A9956B24C2925700351B6E /* golf_ai_drillsUITests.swift */,
+				02A9956D24C2925700351B6E /* Info.plist */,
+			);
+			path = "golf-ai-drillsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02A9954524C2925000351B6E /* golf-ai-drills */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A9957024C2925700351B6E /* Build configuration list for PBXNativeTarget "golf-ai-drills" */;
+			buildPhases = (
+				02A9954224C2925000351B6E /* Sources */,
+				02A9954324C2925000351B6E /* Frameworks */,
+				02A9954424C2925000351B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "golf-ai-drills";
+			productName = "golf-ai-drills";
+			productReference = 02A9954624C2925000351B6E /* golf-ai-drills.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02A9955B24C2925700351B6E /* golf-ai-drillsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A9957324C2925700351B6E /* Build configuration list for PBXNativeTarget "golf-ai-drillsTests" */;
+			buildPhases = (
+				02A9955824C2925700351B6E /* Sources */,
+				02A9955924C2925700351B6E /* Frameworks */,
+				02A9955A24C2925700351B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02A9955E24C2925700351B6E /* PBXTargetDependency */,
+			);
+			name = "golf-ai-drillsTests";
+			productName = "golf-ai-drillsTests";
+			productReference = 02A9955C24C2925700351B6E /* golf-ai-drillsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02A9956624C2925700351B6E /* golf-ai-drillsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A9957624C2925700351B6E /* Build configuration list for PBXNativeTarget "golf-ai-drillsUITests" */;
+			buildPhases = (
+				02A9956324C2925700351B6E /* Sources */,
+				02A9956424C2925700351B6E /* Frameworks */,
+				02A9956524C2925700351B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02A9956924C2925700351B6E /* PBXTargetDependency */,
+			);
+			name = "golf-ai-drillsUITests";
+			productName = "golf-ai-drillsUITests";
+			productReference = 02A9956724C2925700351B6E /* golf-ai-drillsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02A9953E24C2925000351B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = C;
+				TargetAttributes = {
+					02A9954524C2925000351B6E = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					02A9955B24C2925700351B6E = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 02A9954524C2925000351B6E;
+					};
+					02A9956624C2925700351B6E = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 02A9954524C2925000351B6E;
+					};
+				};
+			};
+			buildConfigurationList = 02A9954124C2925000351B6E /* Build configuration list for PBXProject "golf-ai-drills" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02A9953D24C2925000351B6E;
+			productRefGroup = 02A9954724C2925000351B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02A9954524C2925000351B6E /* golf-ai-drills */,
+				02A9955B24C2925700351B6E /* golf-ai-drillsTests */,
+				02A9956624C2925700351B6E /* golf-ai-drillsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02A9954424C2925000351B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A9955624C2925500351B6E /* LaunchScreen.storyboard in Resources */,
+				02A9955324C2925500351B6E /* Preview Assets.xcassets in Resources */,
+				02A9955024C2925500351B6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A9955A24C2925700351B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A9956524C2925700351B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02A9954224C2925000351B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A9954A24C2925000351B6E /* AppDelegate.swift in Sources */,
+				02A9954C24C2925000351B6E /* SceneDelegate.swift in Sources */,
+				02A9954E24C2925000351B6E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A9955824C2925700351B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A9956124C2925700351B6E /* golf_ai_drillsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A9956324C2925700351B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A9956C24C2925700351B6E /* golf_ai_drillsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02A9955E24C2925700351B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02A9954524C2925000351B6E /* golf-ai-drills */;
+			targetProxy = 02A9955D24C2925700351B6E /* PBXContainerItemProxy */;
+		};
+		02A9956924C2925700351B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02A9954524C2925000351B6E /* golf-ai-drills */;
+			targetProxy = 02A9956824C2925700351B6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02A9955424C2925500351B6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02A9955524C2925500351B6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02A9956E24C2925700351B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02A9956F24C2925700351B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02A9957124C2925700351B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"golf-ai-drills/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "golf-ai-drills/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "golfai.golf-ai-drills";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02A9957224C2925700351B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"golf-ai-drills/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "golf-ai-drills/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "golfai.golf-ai-drills";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02A9957424C2925700351B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "golf-ai-drillsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "golfai.golf-ai-drillsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/golf-ai-drills.app/golf-ai-drills";
+			};
+			name = Debug;
+		};
+		02A9957524C2925700351B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "golf-ai-drillsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "golfai.golf-ai-drillsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/golf-ai-drills.app/golf-ai-drills";
+			};
+			name = Release;
+		};
+		02A9957724C2925700351B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "golf-ai-drillsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "golfai.golf-ai-drillsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "golf-ai-drills";
+			};
+			name = Debug;
+		};
+		02A9957824C2925700351B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "golf-ai-drillsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "golfai.golf-ai-drillsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "golf-ai-drills";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02A9954124C2925000351B6E /* Build configuration list for PBXProject "golf-ai-drills" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A9956E24C2925700351B6E /* Debug */,
+				02A9956F24C2925700351B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A9957024C2925700351B6E /* Build configuration list for PBXNativeTarget "golf-ai-drills" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A9957124C2925700351B6E /* Debug */,
+				02A9957224C2925700351B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A9957324C2925700351B6E /* Build configuration list for PBXNativeTarget "golf-ai-drillsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A9957424C2925700351B6E /* Debug */,
+				02A9957524C2925700351B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A9957624C2925700351B6E /* Build configuration list for PBXNativeTarget "golf-ai-drillsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A9957724C2925700351B6E /* Debug */,
+				02A9957824C2925700351B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02A9953E24C2925000351B6E /* Project object */;
+}
