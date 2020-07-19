@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DrillPageView.swift
 //  golf-ai-drills
 //
 //  Created by C on 7/17/20.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DrillPageView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("Hello world")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct DrillPageView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        DrillPageView()
     }
 }
