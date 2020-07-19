@@ -8,11 +8,11 @@
 
 import SwiftUI
 
-let drills:[Drill] = decode([Drill].self, from: "./Data/Drills.json")
+let drills:[Drill] = decode([Drill].self, from: "Drills.json")
 
 struct DrillView: View {
     
-    var drill:Drill
+    var drill:[Drill]
     
     var body: some View {
         Text("Hellsobhjh")
@@ -21,7 +21,7 @@ struct DrillView: View {
 
 struct DrillView_Previews: PreviewProvider {
     static var previews: some View {
-//    DrillView()
-    DrillView(drill: drills[0])
+        //    DrillView()
+        DrillView(drill: drills)
     }
 }

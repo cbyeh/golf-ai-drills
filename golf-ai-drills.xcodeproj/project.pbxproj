@@ -15,11 +15,11 @@
 		02A9955624C2925500351B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A9955424C2925500351B6E /* LaunchScreen.storyboard */; };
 		02A9956124C2925700351B6E /* golf_ai_drillsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A9956024C2925700351B6E /* golf_ai_drillsTests.swift */; };
 		02A9956C24C2925700351B6E /* golf_ai_drillsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A9956B24C2925700351B6E /* golf_ai_drillsUITests.swift */; };
-		02B5CD0724C3D238004463F3 /* Drills.json in Resources */ = {isa = PBXBuildFile; fileRef = 02B5CD0624C3D238004463F3 /* Drills.json */; };
 		02E5FD3424C2A17D009B5C34 /* Drill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5FD3324C2A17D009B5C34 /* Drill.swift */; };
 		02E5FD3624C2BB6B009B5C34 /* DrillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5FD3524C2BB6B009B5C34 /* DrillView.swift */; };
 		02E5FD3824C2BBD9009B5C34 /* DrillPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5FD3724C2BBD9009B5C34 /* DrillPageView.swift */; };
 		02E5FD3A24C2CF85009B5C34 /* ParseJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5FD3924C2CF85009B5C34 /* ParseJson.swift */; };
+		02FF7DB524C40C0A00D1FB2F /* Drills.json in Resources */ = {isa = PBXBuildFile; fileRef = 02FF7DB424C40C0A00D1FB2F /* Drills.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +54,11 @@
 		02A9956724C2925700351B6E /* golf-ai-drillsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "golf-ai-drillsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A9956B24C2925700351B6E /* golf_ai_drillsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golf_ai_drillsUITests.swift; sourceTree = "<group>"; };
 		02A9956D24C2925700351B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02B5CD0624C3D238004463F3 /* Drills.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Drills.json; sourceTree = "<group>"; };
 		02E5FD3324C2A17D009B5C34 /* Drill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drill.swift; sourceTree = "<group>"; };
 		02E5FD3524C2BB6B009B5C34 /* DrillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillView.swift; sourceTree = "<group>"; };
 		02E5FD3724C2BBD9009B5C34 /* DrillPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillPageView.swift; sourceTree = "<group>"; };
 		02E5FD3924C2CF85009B5C34 /* ParseJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJson.swift; sourceTree = "<group>"; };
+		02FF7DB424C40C0A00D1FB2F /* Drills.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Drills.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +154,7 @@
 		02E5FD2D24C29F28009B5C34 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				02B5CD0624C3D238004463F3 /* Drills.json */,
+				02FF7DB424C40C0A00D1FB2F /* Drills.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A9955624C2925500351B6E /* LaunchScreen.storyboard in Resources */,
-				02B5CD0724C3D238004463F3 /* Drills.json in Resources */,
+				02FF7DB524C40C0A00D1FB2F /* Drills.json in Resources */,
 				02A9955324C2925500351B6E /* Preview Assets.xcassets in Resources */,
 				02A9955024C2925500351B6E /* Assets.xcassets in Resources */,
 			);

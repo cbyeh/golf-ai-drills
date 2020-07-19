@@ -8,11 +8,15 @@
 
 import SwiftUI
 
-struct Drill: Codable, Hashable {
+struct Name: Codable {
+    var name:String
+}
+
+struct Drill: Codable {
     var id:Int
     var title:String
-    var targets:[String]
-    var benefits:[String]
-    var steps:[String]
+    var targets:[Name]
+    var benefits:[Name]
+    var steps:[Name]
     var videoURL:String
 }
