@@ -16,10 +16,11 @@
 		02A9956124C2925700351B6E /* golf_ai_drillsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A9956024C2925700351B6E /* golf_ai_drillsTests.swift */; };
 		02A9956C24C2925700351B6E /* golf_ai_drillsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A9956B24C2925700351B6E /* golf_ai_drillsUITests.swift */; };
 		02E5FD3424C2A17D009B5C34 /* Drill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5FD3324C2A17D009B5C34 /* Drill.swift */; };
-		02E5FD3624C2BB6B009B5C34 /* DrillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5FD3524C2BB6B009B5C34 /* DrillView.swift */; };
-		02E5FD3824C2BBD9009B5C34 /* DrillPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5FD3724C2BBD9009B5C34 /* DrillPageView.swift */; };
+		02E5FD3624C2BB6B009B5C34 /* DrillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5FD3524C2BB6B009B5C34 /* DrillButton.swift */; };
 		02E5FD3A24C2CF85009B5C34 /* ParseJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5FD3924C2CF85009B5C34 /* ParseJson.swift */; };
 		02FF7DB524C40C0A00D1FB2F /* Drills.json in Resources */ = {isa = PBXBuildFile; fileRef = 02FF7DB424C40C0A00D1FB2F /* Drills.json */; };
+		02FF7DC124C43A2100D1FB2F /* DrillsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FF7DC024C43A2100D1FB2F /* DrillsPage.swift */; };
+		02FF7DC424C4457200D1FB2F /* DrillDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FF7DC324C4457200D1FB2F /* DrillDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +56,11 @@
 		02A9956B24C2925700351B6E /* golf_ai_drillsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golf_ai_drillsUITests.swift; sourceTree = "<group>"; };
 		02A9956D24C2925700351B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02E5FD3324C2A17D009B5C34 /* Drill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drill.swift; sourceTree = "<group>"; };
-		02E5FD3524C2BB6B009B5C34 /* DrillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillView.swift; sourceTree = "<group>"; };
-		02E5FD3724C2BBD9009B5C34 /* DrillPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillPageView.swift; sourceTree = "<group>"; };
+		02E5FD3524C2BB6B009B5C34 /* DrillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillButton.swift; sourceTree = "<group>"; };
 		02E5FD3924C2CF85009B5C34 /* ParseJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJson.swift; sourceTree = "<group>"; };
 		02FF7DB424C40C0A00D1FB2F /* Drills.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Drills.json; sourceTree = "<group>"; };
+		02FF7DC024C43A2100D1FB2F /* DrillsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillsPage.swift; sourceTree = "<group>"; };
+		02FF7DC324C4457200D1FB2F /* DrillDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +91,8 @@
 		02A9953D24C2925000351B6E = {
 			isa = PBXGroup;
 			children = (
-				02A9954824C2925000351B6E /* golf-ai-drills */,
 				02A9955F24C2925700351B6E /* golf-ai-drillsTests */,
+				02A9954824C2925000351B6E /* golf-ai-drills */,
 				02A9956A24C2925700351B6E /* golf-ai-drillsUITests */,
 				02A9954724C2925000351B6E /* Products */,
 			);
@@ -114,8 +116,9 @@
 				02A9954B24C2925000351B6E /* SceneDelegate.swift */,
 				02A9954D24C2925000351B6E /* ContentView.swift */,
 				02E5FD3324C2A17D009B5C34 /* Drill.swift */,
-				02E5FD3524C2BB6B009B5C34 /* DrillView.swift */,
-				02E5FD3724C2BBD9009B5C34 /* DrillPageView.swift */,
+				02E5FD3524C2BB6B009B5C34 /* DrillButton.swift */,
+				02FF7DC024C43A2100D1FB2F /* DrillsPage.swift */,
+				02FF7DC324C4457200D1FB2F /* DrillDetail.swift */,
 				02E5FD3924C2CF85009B5C34 /* ParseJson.swift */,
 				02A9954F24C2925500351B6E /* Assets.xcassets */,
 				02A9955424C2925500351B6E /* LaunchScreen.storyboard */,
@@ -291,12 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FF7DC124C43A2100D1FB2F /* DrillsPage.swift in Sources */,
 				02A9954A24C2925000351B6E /* AppDelegate.swift in Sources */,
 				02E5FD3424C2A17D009B5C34 /* Drill.swift in Sources */,
 				02A9954C24C2925000351B6E /* SceneDelegate.swift in Sources */,
 				02E5FD3A24C2CF85009B5C34 /* ParseJson.swift in Sources */,
-				02E5FD3824C2BBD9009B5C34 /* DrillPageView.swift in Sources */,
-				02E5FD3624C2BB6B009B5C34 /* DrillView.swift in Sources */,
+				02E5FD3624C2BB6B009B5C34 /* DrillButton.swift in Sources */,
+				02FF7DC424C4457200D1FB2F /* DrillDetail.swift in Sources */,
 				02A9954E24C2925000351B6E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

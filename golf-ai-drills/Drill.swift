@@ -8,11 +8,24 @@
 
 import SwiftUI
 
+// Our parsed json into an array of Drill objects
+let drillData = decode([Drill].self, from: "Drills.json")
+
+// For json formatting
 struct Name: Codable {
     var name:String
 }
 
-struct Drill: Codable {
+// A high level drill represented by its json identifiers
+struct Drill: Codable, Hashable {
+    static func == (lhs: Drill, rhs: Drill) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
     var id:Int
     var title:String
     var targets:[Name]
