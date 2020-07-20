@@ -12,7 +12,7 @@ import SwiftUI
 let drillData = decode([Drill].self, from: "Drills.json")
 
 // For json formatting
-struct Name: Codable {
+struct Name: Codable, Hashable {
     var name:String
 }
 

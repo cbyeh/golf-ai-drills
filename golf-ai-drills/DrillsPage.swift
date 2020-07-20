@@ -19,8 +19,11 @@ struct DrillsPage: View {
             VStack {
                 ForEach (self.drills, id: \.self) {
                     drill in
-                    DrillButton(drill: drill)
-                        .frame(height: 250)
+                    // Pressing a button will lead to video and more details
+                    NavigationLink(destination: DrillDetail(drill: drill)) {
+                        DrillButton(drill: drill)
+                            .frame(height: 250)
+                    }
                 }
             }
         }
