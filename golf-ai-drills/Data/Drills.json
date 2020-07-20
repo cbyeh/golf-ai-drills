@@ -38,7 +38,7 @@
                 "name": "Hit the ball using a half swing, focusing on balance throughout the shot"
             }
         ],
-        "videoURL": "https://urldefense.com/v3/__https://swing-videos.s3.us-east-2.amazonaws.com/Swing*Videos/tiptoeDrillFull__;Kw!!Mih3wA!QkXFNPs6aJBJFMvVgEm23mUed3pN6vfFGpUUZeVaCk_wIPRRcTs1CXPBrz40dg$ "
+        "videoURL": "https://swing-videos.s3.us-east-2.amazonaws.com/Drill+Videos/tiptoeDrillFull.mp4"
     },
     {
         "id": 1,
@@ -85,7 +85,7 @@
                 "name": "Let your hips and shoulders rotate back and through without 'swaying' out of the barrel"
             }
         ],
-        "videoURL": "https://urldefense.com/v3/__https://swing-videos.s3.us-east-2.amazonaws.com/Swing*Videos/barrelFull__;Kw!!Mih3wA!QkXFNPs6aJBJFMvVgEm23mUed3pN6vfFGpUUZeVaCk_wIPRRcTs1CXNvcuwUQw$ "
+        "videoURL": "https://swing-videos.s3.us-east-2.amazonaws.com/Drill+Videos/barrelFull.mp4"
     },
     {
         "id": 2,
@@ -126,7 +126,7 @@
                 "name": "All of your weight should be on your front leg at end of swing so that you can easily pickup your trailing foot if needed"
             }
         ],
-        "videoURL": "https://urldefense.com/v3/__https://swing-videos.s3.us-east-2.amazonaws.com/Swing*Videos/stickFinishFull__;Kw!!Mih3wA!QkXFNPs6aJBJFMvVgEm23mUed3pN6vfFGpUUZeVaCk_wIPRRcTs1CXP9RYYcAQ$ "
+        "videoURL": "https://swing-videos.s3.us-east-2.amazonaws.com/Drill+Videos/stickFinishFull.mp4"
     },
     {
         "id": 3,
@@ -214,7 +214,7 @@
                 "name": "Try to over-exaggerate the rotation of your hips, shoulders, and hands. This should produce a club face that appears closed and aimed downwards"
             }
         ],
-        "videoURL": "https://dummyurl"
+        "videoURL": "https://swing-videos.s3.us-east-2.amazonaws.com/Drill+Videos/baseballDrillFull.mp4"
     },
     {
         "id": 5,
@@ -252,6 +252,6 @@
                 "name": "As you reach the delivery zone, make sure your right palm is facing the ground to ensure proper downward strike"
             }
         ],
-        "videoURL": "https://urldefense.com/v3/__https://swing-videos.s3.us-east-2.amazonaws.com/Swing*Videos/ballAndTeeFull__;Kw!!Mih3wA!QkXFNPs6aJBJFMvVgEm23mUed3pN6vfFGpUUZeVaCk_wIPRRcTs1CXN2TZOx_w$ "
+        "videoURL": "https://swing-videos.s3.us-east-2.amazonaws.com/Drill+Videos/ballAndTeeFull.mp4"
     }
 ]
