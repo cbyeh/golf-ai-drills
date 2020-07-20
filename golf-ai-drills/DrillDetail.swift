@@ -9,7 +9,7 @@
 import SwiftUI
 import AVKit
 
-let defaultUrl = "https://urldefense.com/v3/__https://swing-videos.s3.us-east-2.amazonaws.com/Swing*Videos/tiptoeDrillFull__;Kw!!Mih3wA!QkXFNPs6aJBJFMvVgEm23mUed3pN6vfFGpUUZeVaCk_wIPRRcTs1CXPBrz40dg$"
+let defaultUrl = "https://swing-videos.s3.us-east-2.amazonaws.com/Drill+Videos/twoBallDrill.mp4"
 
 struct DrillDetail: View {
     
@@ -66,7 +66,6 @@ struct DrillDetail_Previews: PreviewProvider {
 
 struct MediaPlayer: UIViewControllerRepresentable {
     
-    // Not initialized on call? May need init()
     var url:String
     
     func makeUIViewController(context: UIViewControllerRepresentableContext<MediaPlayer>) -> AVPlayerViewController {
