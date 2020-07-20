@@ -44,16 +44,10 @@ struct DrillDetail: View {
             }
             .cornerRadius(12)
             Divider()
-            Text("Steps")
-                .font(.title)
-                .fontWeight(.bold)
-                .frame(height: 15)
-                .padding(.top, 12.0)
-                .padding(.bottom, -10.0)
             List {ForEach(drill.steps, id: \.self) {
                 step in
                 Text("\u{2022} " + step.name)
-                    .font(.caption)
+                    .font(.body)
                 }
             }
             .accentColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
